@@ -1,0 +1,66 @@
+POZNEJ PRVKY – VERZE S VLASTNÍMI OBRÁZKY
+
+Soubory ponechte v této struktuře:
+
+poznej-prvky-v2/
+├── index.html
+├── style.css
+├── script.js
+└── images/
+    ├── lithium.jpg
+    ├── sodik.jpg
+    └── ...
+
+JAK VLOŽIT OBRÁZKY
+1. Otevřete složku „images“.
+2. Vložte do ní své obrázky.
+3. Obrázky pojmenujte přesně podle seznamu níže.
+4. Doporučený formát je JPG, orientace na šířku nebo čtverec.
+5. Ideální rozměr je přibližně 1000 × 750 px.
+6. Pokud obrázek chybí, hra se nezastaví – zobrazí náhradní plochu.
+
+POŽADOVANÉ NÁZVY OBRÁZKŮ
+- lithium.jpg
+- sodik.jpg
+- draslik.jpg
+- horcik.jpg
+- vapnik.jpg
+- zelezo.jpg
+- med.jpg
+- zinek.jpg
+- stribro.jpg
+- platina.jpg
+- zlato.jpg
+- rtut.jpg
+- hlinik.jpg
+- cin.jpg
+- olovo.jpg
+- uhlik.jpg
+- dusik.jpg
+- kyslik.jpg
+- vodik.jpg
+- sira.jpg
+- chlor.jpg
+- jod.jpg
+- fosfor.jpg
+- fluor.jpg
+
+ZMĚNA NÁZVU NEBO FORMÁTU
+Cestu lze změnit v souboru script.js u konkrétního prvku:
+image: 'images/lithium.jpg'
+
+Lze použít také PNG nebo WEBP, například:
+image: 'images/lithium.png'
+
+DALŠÍ VLASTNOSTI
+- Každá hra má 5 náhodných různých otázek.
+- Zadání je v samostatném rámečku.
+- „Kdo jsem?“ je pod zadáním.
+- Název i značka se kontrolují odděleně.
+- Obrázky se přizpůsobí mobilu, tabletu i počítači.
+
+
+OPRAVA VERZE 2.1
+- Opraveno obnovení stránky po stisku Enter.
+- Enter v poli Název prvku nyní přesune kurzor do pole Chemická značka.
+- Opraveno tlačítko Hrát znovu.
