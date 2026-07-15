@@ -4,7 +4,7 @@ const QUESTIONS_PER_GAME = 5;
 
 const ELEMENTS = [
   {
-    name: 'lithium',
+    name: 'lithium-oprava',
     symbol: 'Li',
     question: 'Jsem nejlehčí kov, plamen barvím karmínově červeně a pomáhám lidem v psychiatrii.',
     reaction: 'Skvěle! Máš postřeh jako nabitá baterka!',
